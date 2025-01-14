@@ -267,7 +267,8 @@ export async function getLikedPost({postId,likeArray}:{postId:string,likeArray:s
       projectConfig.postsid,
       postId,
       {
-        Likes:likeArray
+        likes:likeArray
+          
       }
     
     )
